@@ -2,32 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Student Analysis Dashboard</title>
+    <title>Sanjai | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>📊 Student Analysis Dashboard</h1>
+    <!-- NAVBAR -->
+    <header>
+        <h1>Sanjai</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-    <table id="studentTable">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Maths</th>
-                <th>Science</th>
-                <th>English</th>
-                <th>Average</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
+    <!-- HERO -->
+    <section class="hero">
+        <h2>Hi, I'm Sanjai 👋</h2>
+        <p>Data Analysis | Programming | Problem Solving</p>
+    </section>
 
-    <h2 id="topStudent"></h2>
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Passionate Computer Technology student with strong skills in 
+            data analysis, programming, and problem solving. 
+            Focused on building efficient and scalable solutions.
+        </p>
+    </section>
 
-    <canvas id="chart"></canvas>
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skillList"></ul>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Student Analysis Dashboard</h3>
+            <p>Analyzed student data and visualized performance using charts.</p>
+        </div>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio built using HTML, CSS, and JavaScript.</p>
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: sanjai@email.com</p>
+        <p>GitHub: github.com/yourusername</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Sanjai</p>
+    </footer>
+
     <script src="script.js"></script>
-
 </body>
 </html>
