@@ -1,30 +1,46 @@
 body {
     font-family: Arial;
-    text-align: center;
+    margin: 0;
     background: #f4f6f9;
 }
 
-h1 {
-    color: #333;
-}
-
-table {
-    margin: 20px auto;
-    border-collapse: collapse;
-    width: 80%;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-th {
-    background-color: #007bff;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #222;
     color: white;
 }
 
-#topStudent {
-    margin-top: 20px;
-    color: green;
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
 }
+
+.hero {
+    text-align: center;
+    padding: 60px;
+    background: #007bff;
+    color: white;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.project {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+} 
